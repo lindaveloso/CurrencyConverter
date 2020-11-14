@@ -2,4 +2,6 @@
     <string name="app_name">Currency Converter</string>
     <string name="enter_an_amount_that_will_be_converted">Enter an amount so it can converted !</string>
     <string name="button">CONVERT</string>
+    <string name="currency_converter_title">Currency Converter</string>
+    <string name="enter_a_number">your amount</string>
 </resources>
