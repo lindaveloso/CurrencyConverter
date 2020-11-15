@@ -31,10 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 //do something
                 String euro = editTextNumber.getText().toString();
                 double eurodouble = Double.parseDouble(euro);
-
                 double poundsdouble = 0.89 * eurodouble;
-
-                // String poundString = Double.toString(poundsdouble);
                 String poundString = String.format("%.2f", poundsdouble);
 
                 Toast.makeText(MainActivity.this, "€" + euro + " is " + " £" + poundString, Toast.LENGTH_LONG).show();
